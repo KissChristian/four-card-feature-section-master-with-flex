@@ -1,0 +1,187 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+
+    /*MOBILE PREVIEW*/
+body{
+
+    height: 100%;
+    background-color: hsl(0, 0%, 98%);
+}
+
+main{
+    max-width: 425px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Poppins', sans-serif;  
+}
+
+
+/*TITTLE*/
+
+.information{  
+    text-align: center;
+    margin:14.11% auto;
+
+}
+
+.tittle{
+    margin-bottom: 2.3%;
+}
+
+.tittle--first{
+    color: hsl(234, 12%, 34%);
+    font-weight: 200;
+}
+
+.tittle--second{
+    color:  hsl(234, 12%, 34%);
+    
+}
+
+
+.about{
+    color: hsl(229, 6%, 66%);
+    padding: 0.0705882352941176rem;
+}
+
+/*CONTENT*/
+
+.box{
+    max-width: 350px;
+    height: 350px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 10px  hsl(229, 6%, 66%);
+    background-color: white;
+    padding: 25px ;  
+    position: relative;
+}
+
+.box p{
+    color:hsl(229, 6%, 66%);
+    font-size: 0.9375rem;
+    
+    
+}
+.box h2{
+    color:hsl(234, 12%, 34%);
+}
+
+.box--img{
+    width:64px;
+    height: 64px;
+    position: absolute;
+    right:1.25rem;
+    bottom: 1.25rem;
+}
+
+.supervisor{
+    border-top: 5px solid hsl(180, 62%, 55%);
+}
+
+.team-builder{
+    border-top: 5px solid hsl(0, 78%, 62%);
+}
+
+.karma{
+    border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+.calculator{
+    border-top: 5px solid  hsl(212, 86%, 64%);
+}
+
+
+/*desktop desing*/
+
+@media (min-width:1024px){
+        
+    main{
+        max-width:100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-self: center;
+    }
+
+    .information{
+        width:40%;
+        margin:50px;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box{
+        margin: 20px 20px 20px 20px;           
+    }
+
+}
+
+@media  (min-width:1440px){
+
+            main{
+                max-width:100%;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-self: center;
+            }
+
+            .information{
+                width:40%;
+                margin:50px;
+            }
+
+            .content{
+                max-width: 1440px;
+                
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .box{
+                margin: 20px 20px 20px 20px;           
+            }
+            
+            .supervisor{
+                order: 0;
+            }
+
+            .team-builder{
+                order:1;
+            }
+            .karma{
+                order: 4;
+            }
+
+            .calculator{
+                order: 3;
+            }
+
+            .supervisor ,.calculator{
+                transform:translateY(50%);
+            }
+
+}
+
+
+
