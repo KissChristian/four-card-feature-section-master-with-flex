@@ -33,6 +33,7 @@ main{
 }
 
 .tittle{
+    
     margin-bottom: 2.3%;
 }
 
@@ -42,8 +43,7 @@ main{
 }
 
 .tittle--second{
-    color:  hsl(234, 12%, 34%);
-    
+    color:  hsl(234, 12%, 34%);  
 }
 
 
@@ -103,6 +103,15 @@ main{
 /*desktop desing*/
 
 @media (min-width:1024px){
+
+    .tittle--first{
+        font-size: 25px;
+        
+    }
+    
+    .tittle--second{  
+        font-size: 25px;
+    }
         
     main{
         max-width:100%;
@@ -146,6 +155,15 @@ main{
             .information{
                 width:40%;
                 margin:50px;
+            }
+
+            .tittle--first{
+                font-size: 40px;
+                
+            }
+            
+            .tittle--second{  
+                font-size: 40px;
             }
 
             .content{
