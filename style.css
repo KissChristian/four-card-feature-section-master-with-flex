@@ -6,16 +6,12 @@
 
     /*MOBILE PREVIEW*/
 body{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
     height: 100%;
     background-color: hsl(0, 0%, 98%);
 }
 
 main{
-    max-width: 425px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -70,9 +66,7 @@ main{
 
 .box p{
     color:hsl(229, 6%, 66%);
-    font-size: 0.9375rem;
-    
-    
+    font-size: 0.9375rem;    
 }
 .box h2{
     color:hsl(234, 12%, 34%);
@@ -103,8 +97,8 @@ main{
 }
 
 footer{
-    position: relative;
-    bottom: 0;
+    position: absolute;
+    bottom:0;
 }
 /*desktop desing*/
 
@@ -112,9 +106,7 @@ footer{
 
     .tittle--first,.tittle--second{
         font-size: 30px;
-        
     }
-    
         
     main{
         max-width:100%;
