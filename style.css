@@ -97,7 +97,7 @@ main{
 }
 
 footer{
-    position: absolute;
+    position: relative;
     bottom:0;
 }
 /*desktop desing*/
