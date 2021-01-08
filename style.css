@@ -6,7 +6,10 @@
 
     /*MOBILE PREVIEW*/
 body{
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 100%;
     background-color: hsl(0, 0%, 98%);
 }
@@ -99,7 +102,10 @@ main{
     border-top: 5px solid  hsl(212, 86%, 64%);
 }
 
-
+footer{
+    position: relative;
+    bottom: 0;
+}
 /*desktop desing*/
 
 @media (min-width:1024px){
