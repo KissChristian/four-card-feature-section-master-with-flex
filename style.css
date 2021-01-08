@@ -110,14 +110,11 @@ footer{
 
 @media (min-width:1024px){
 
-    .tittle--first{
-        font-size: 25px;
+    .tittle--first,.tittle--second{
+        font-size: 30px;
         
     }
     
-    .tittle--second{  
-        font-size: 25px;
-    }
         
     main{
         max-width:100%;
